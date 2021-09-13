@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import TheTitle from './TheTitle.js';
-import reportWebVitals from './reportWebVitals';
+import TheTitle from './Components/TheTitle.js';
+import Calculator from './Components/Calculator';
+import GreatOperationButton from './Components/GreatOperationButton';
+import AmazingNumberButton from './Components/AmazingNumberButton';
+import MagnificientEqualButton from './Components/MagnificientEqualButton';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <TheTitle />
+    <TheTitle />,
+    <Calculator />,
+    <GreatOperationButton />,
+    <AmazingNumberButton />,
+    <MagnificientEqualButton />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
