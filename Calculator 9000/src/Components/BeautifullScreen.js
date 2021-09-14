@@ -1,9 +1,11 @@
 import '../App.css';
 
-function BeautifulScreen() {
+function BeautifullScreen() {
   return (
-    <h1>BeautifulScreen</h1>
+    <div className="fullScreen">
+        <p>145662</p>
+    </div>
   );
 }
 
-export default BeautifulScreen;
+export default BeautifullScreen;
