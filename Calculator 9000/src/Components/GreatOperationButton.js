@@ -7,7 +7,6 @@ const signKeys = [
 	{ id: 'divide', class: 'operation', value: '/' }
 ];
 
-
 function GreatOperationButton({ onClick }) {
 	return (
 		<div className="keyboard">
@@ -16,7 +15,7 @@ function GreatOperationButton({ onClick }) {
 					className="operator"
 					id={key.id}
 					key={key.id}
-				>
+                  >
 					{key.value}
 				</button>
 			))}

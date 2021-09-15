@@ -8,8 +8,8 @@ function Calculator() {
   return (
     <div className="calculationBox">
         <BeautifullScreen />
-        <AmazingNumberButton />
         <GreatOperationButton />
+        <AmazingNumberButton />
         <MagnificientEqualButton />
     </div>
   );

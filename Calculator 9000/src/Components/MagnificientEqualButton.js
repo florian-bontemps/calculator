@@ -1,6 +1,7 @@
 import '../App.css';
 
 function MagnificientEqualButton({ onClick }) {
+	
 	return (
 		<div className="keyboard">
 				<button
