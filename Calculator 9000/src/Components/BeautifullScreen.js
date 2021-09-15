@@ -1,9 +1,7 @@
-import '../App.css';
-
-function BeautifullScreen() {
+function BeautifullScreen(props) {
   return (
     <div className="fullScreen">
-        <p>145662</p>
+        {props.answer} + {props.question}
     </div>
   );
 }

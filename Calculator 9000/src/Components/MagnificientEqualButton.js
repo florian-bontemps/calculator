@@ -1,18 +1,7 @@
-import '../App.css';
-
-function MagnificientEqualButton({ onClick }) {
-	
-	return (
-		<div className="keyboard">
-				<button
-					className="btn"
-					id="sum"
-					value="="
-				>
-					=
-				</button>
-		</div>
-	);
+function MagnificientEqualButton (props){
+    return(
+        <input label="props.label" value={props.label} readOnly onClick={props.handleClick}/>
+    )
 }
 
 export default MagnificientEqualButton;
