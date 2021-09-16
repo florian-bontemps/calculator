@@ -1,6 +1,6 @@
 function MagnificientEqualButton (props){
     return(
-        <input label="props.label" value={props.label} readOnly onClick={props.handleClick}/>
+        <input label="props.label" value={props.label} readOnly onClick={props.handleClick} />
     )
 }
 
