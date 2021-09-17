@@ -1,3 +1,6 @@
+/* ***GENERAL SETTINGS*** */
+
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -9,6 +12,14 @@ html {
   box-sizing: inherit;
 }
 
+/* Title  */
+h1{
+  text-align: center;
+  font-size:4em;
+  font-family:monospace;
+  padding-top: 1%;
+}
+/* Calculator  */
 .calculationBox{
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -19,11 +30,11 @@ html {
     width: 400px;
     box-shadow: 10px 10px 5px grey;
   }
+/* Results and Numbers  */
 
 .fullScreen{
     width: 100%;
     font-size: 5rem;
-    /* height: 80px; */
     border: none;
     background-color: #252525;
     color: #fff;
@@ -31,9 +42,7 @@ html {
     padding-right: 20px;
     padding-left: 10px;
 }
-.calculating{
-  width:100%;
-}
+
 .answerField{
   height:60px;
 }
@@ -41,7 +50,19 @@ html {
   height:30px;
   font-size: 2rem;
   color: rgb(25, 163, 7);
+  overflow: hidden;
 }
+
+.nineThousands{
+  font-size: 2rem;
+  width: auto;
+  background-color: #252525;
+  color: rgb(221, 29, 4);
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+/* Numbers and buttons  */
 .keyboard {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -64,32 +85,37 @@ input {
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.05), inset 0 1px 0 0 rgba(255,255,255,.45), inset 0 -1px 0 0 rgba(255,255,255,.15), 0 1px 0 0 rgba(255,255,255,.15);
   text-shadow: 0 1px rgba(255,255,255,.4);
   cursor: pointer;
+  text-align: center;
 }
-  
-  input:hover {
-    background-color: #eaeaea;
+input:focus{
+  outline: none; }
+
+.number {
+    background-color: #2e86c024;
+ }
+
+.number:hover {
+    background-color: transparent;
   }
   
-
 .operator {
   background-color: #f0595f;
   border-color: #b0353a;
   color: #fff;
+  text-shadow: 1px 0 10px black;
   }
   
-  .operator:hover {
+.operator:hover {
     background-color: #f17377;
   }
   
-  #sum {
+.sum {
     background-color: #2e86c0;
     border-color: #337cac;
     color: #fff;
     width: 100%;
-    grid-column-start: 1;
-    grid-column-end: 6;
   }
   
-  #sum:hover {
+.sum:hover {
     background-color: #4e9ed4;
   }

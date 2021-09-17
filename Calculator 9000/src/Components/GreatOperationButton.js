@@ -1,6 +1,6 @@
 function GreatOperationButton (props){
     return(
-        <input label="props.label" value={props.label} readOnly onClick={props.handleClick}/>
+        <input className="operator" label="props.label" value={props.label} readOnly onClick={props.handleClick}/>
     )
 }
 
