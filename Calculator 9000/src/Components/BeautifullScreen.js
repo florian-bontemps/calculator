@@ -1,10 +1,12 @@
 import '../App.css';
 
-function BeautifullScreen() {
+function BeautifullScreen(props) {
   return (
     <div className="fullScreen">
-        <p>145662</p>
+        <div className="answerField calculating">{props.answer}</div>
+        <div className="questionField calculating">{props.question}</div>
     </div>
+    
   );
 }
 

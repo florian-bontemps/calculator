@@ -4,7 +4,7 @@ import './index.css';
 import Calculator from './Components/Calculator';
 import TheTitle from './Components/TheTitle';
 
-
+// Got rid of App.js and set up everything in Calculator 
 
 ReactDOM.render(
   <React.StrictMode>
